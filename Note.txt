@@ -1,0 +1,4 @@
+BDD.sql est utiliser par installation.php pour installer que la structure des tableaux (no data)
+installation.php necessite que xamp soit installer dans c:/ afin de pouvoir importer le fichier BDD.sql 
+
+bibliotheque.sql est utiliser pour montrer un exemple sur les prets,livre et lecteur (tableau deja remplis)

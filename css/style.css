@@ -1,0 +1,209 @@
+
+body{
+  font-family: "Roboto Slab", sans-serif;
+  font-weight: 300;
+  font-size: 2em;
+  position: relative;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+  margin: 0;
+}
+/**  Header Navigation **/
+header .navbar-default {
+  background-color: transparent;
+  border: none;
+}
+
+header .navbar-default .navbar-nav a {
+  color: white;
+  padding: 5px 8px;
+}
+
+header .navbar-default .navbar-nav a:hover {
+  color: #EEC856;
+}
+
+header .navbar-default .navbar-nav .active a {
+  font-weight: 700;
+  color: #EEC856;
+  background: transparent;
+  border-bottom: 4px solid #EEC856;
+  text-shadow: none;
+}
+
+header .navbar-default .navbar-nav .active a:hover {
+  color: #E15D5F;
+  background: transparent;
+  text-shadow: none;
+}
+/**  Navbar Brand **/
+
+header .navbar-brand {
+  background: url(../images/Library.png);
+  background-repeat: no-repeat;
+  height: auto;
+}
+header  .navbar-brand {
+  background-size: 48px;
+  background-position: top left;
+  padding-top: 7px;
+  margin-top: 1px;
+  padding-bottom: 0;
+  margin-left: 10px;
+
+}
+header  .navbar-brand h1 {
+color: white;
+font-size: 1.3em;
+padding-left: 38px;
+}
+
+header .navbar-brand span.subhead {
+  color:red;
+  display: block;
+  font-family: "Roboto Slab", serif;
+  font-size: .6em;
+  font-weight: 100;
+  }
+
+/**  Navbar Toggle **/
+header .navbar-toggle {
+  background-color: #279182;
+}
+
+header .navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+@media only screen
+and (max-width: 768px) {
+  header .navbar-collapse.in {
+    background-color: rgba(0,0,0, .5);
+  }
+}
+
+header .menu {
+  background: rgba(104,73,49,.7);
+}
+
+header .navbar.menu {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+header .navbar.menu .navbar-nav {
+  padding-top: 7px;
+}
+header .navbar-default  .navbar-nav ol a{
+ 
+ color:black;
+ 
+ }
+ header .navbar-default  .navbar-nav ol a:hover{
+ 
+ color:red;
+ 
+ }
+.page {
+  padding: 50px 0;
+}
+
+.page h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#mission {
+ background: url(../images/bg1.jpg);
+font-weight: 800;    
+}
+
+#services {
+ background: url(../images/bg4.jpg);    
+
+}
+
+.service{
+font-size:0.8em;
+font-weight:20px;
+}
+.service img{
+
+height:200px;
+
+}
+.service a{
+position:center;
+}
+
+#contact {
+ background: url(../images/bg1.jpg);
+font-weight: 800;   
+}
+
+
+
+.form_hover {
+		padding: 0px;
+        position: relative;
+        overflow: hidden;
+        height: 280px;
+    }
+
+.form_hover:hover .header {
+            opacity: 1;
+            transform: translateY(-280px);
+            -webkit-transform: translateY(-280px);
+            -moz-transform: translateY(-280px);
+            -ms-transform: translateY(-280px);
+            -o-transform: translateY(-280px);
+        }
+
+.form_hover img {
+        z-index: 4;
+        }
+
+.form_hover .header {
+            position: absolute;
+            top: 280px;
+            -webkit-transition: all 0.3s ease;
+            -moz-transition: all 0.3s ease;
+            -o-transition: all 0.3s ease;
+            -ms-transition: all 0.3s ease;
+            transition: all 0.3s ease;
+            width: 100%;
+        }
+
+ .form_hover .blur {
+            height: 280px;
+            z-index: 5;
+            position: absolute;
+            width: 100%;
+        }
+
+.form_hover .caption-text {
+            z-index: 10;
+            color: #fff;
+            position: absolute;
+            height: 280px;
+            text-align: center;
+            top: -20px;
+            width: 100%;
+        }
+
+.liitem {
+        height: 70px;
+    }
+.style {
+        background-color: rgba(104,73,49,.7);
+        color: #36A0FF;
+        height: 70px;
+        font-size: 27px;
+        padding: 10px;
+    }
+	
+.carousel,.item,.active{height:100%;}
+.carousel-inner{height:100%;}
+.fill{width:100%;height:100%;background-position:center;background-size:cover;}
